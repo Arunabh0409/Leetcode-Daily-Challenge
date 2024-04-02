@@ -5,7 +5,6 @@ public:
     int lengthOfLastWord(string s)
     {
         int ans = 0;
-        int var = 0;
         int i = s.length() - 1;
         while (s[i] == ' ')
             i--;
